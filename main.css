@@ -1,0 +1,20 @@
+body {
+    width: 80%;
+    margin: 0px auto;
+}
+
+textarea {
+    min-height: 10em;
+}
+
+section {
+    margin: 2em 0px 0px;
+}
+
+.form {
+    box-sizing: border-box;
+    border-bottom: 1px solid #bbb;
+}
+
+.about {
+}
