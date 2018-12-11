@@ -17,7 +17,9 @@ var DATA = {
                 'Bimbo',
                 'C19',
                 'Mohrenkopf',
-                'Mohr'
+                'Mohr',
+                'Schokokopf',
+                'Schokoladenkopf'
             ],
             'cat': 'lpe'
         },
@@ -44,11 +46,23 @@ var DATA = {
         },
         {
             'words': [
+                'Ziegenficker',
+                'Ziegentreiber',
+                'Kamelficker',
+                'Kameltreiber',
+                'Sandneger'
+            ],
+            'cat': 'alh'
+        },
+        {
+            'words': [
                 'Penner',
                 'Obdachloser',
                 'Strassenpenner',
                 'Junkie',
-                'Vagabund'
+                'Vagabund',
+                'Drogensüchtiger',
+                'Süchtiger'
             ],
             'cat': 'shx'
         },
@@ -60,7 +74,8 @@ var DATA = {
         },
         {
             'words': [
-                'Zigeuner'
+                'Zigeuner',
+                'Katzenstrecker'
             ],
             'cat': 'kio'
         },
@@ -93,7 +108,11 @@ var DATA = {
                 'Tunte',
                 'Knabenschänder',
                 'Männerfreund',
-                'Gay'
+                'Gay',
+                'Schwuchtel',
+                'Schwuggele',
+                'Rosettenlecker',
+                'Schwertschlucker'
             ],
             'cat': 'hom'
         },
@@ -173,6 +192,13 @@ var DATA = {
             'Revolutionär',
             'Anhänger des Anarchismus',
             'Guerilla'
+        ],
+        'alh': [
+            'Person arabischstämmiger Herkunft',
+            'Araber',
+            'Beduine',
+            'Nordafrikaner',
+            'Vom Sand Gezeichneter'
         ],
         'shx': [
             'Wohnungssuchender',
