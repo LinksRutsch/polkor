@@ -8,6 +8,11 @@
         gtag('js', new Date());
         gtag('config', 'UA-130826655-1');
     </script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5K796VL');</script>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Politisch korrekt</title>
@@ -17,18 +22,24 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5K796VL"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="app">
         <section class="form">
             <h1>Politisch Korrekt</h1>
             <form v-on:submit.prevent="onSubmit" action="#" id="main">
                 <div class="row">
                     <div class="six columns">
-                        <label for="badword">Verpöhntes Wort</label>
-                        <textarea v-model="badword" @keydown.enter.prevent="onSubmit" class="u-full-width" name="badword" id="badword" maxlength="50"></textarea>
+                        <div class="word-wrapper">
+                            <label for="badword">Verpöhntes Wort</label>
+                            <textarea v-model="badword" @keydown.enter.prevent="onSubmit" ref="baddom" class="u-full-width" name="badword" id="badword" maxlength="50" placeholder="z.B. Vagabund"></textarea>
+                        </div>
                     </div>
                     <div class="six columns">
-                        <label for="goodword">Politisch korrekt</label>
-                        <textarea v-model="goodword" class="u-full-width" name="goodword" id="goodword" disabled></textarea>
+                        <div class="word-wrapper">
+                            <label for="goodword">Politisch korrekt</label>
+                            <textarea v-model="goodword" class="u-full-width" name="goodword" id="goodword" disabled></textarea>
+                        </div>
                     </div>
                     
                 </div>

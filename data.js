@@ -198,7 +198,8 @@ var DATA = {
             'Araber',
             'Beduine',
             'Nordafrikaner',
-            'Vom Sand Gezeichneter'
+            'Vom Sand Gezeichneter',
+            'Nomadisierender arabischer Wüstenbewohner'
         ],
         'shx': [
             'Wohnungssuchender',
@@ -242,7 +243,7 @@ var DATA = {
             'Raumpflegerin',
             'Fachfrau für Gebäudereinigung',
             'Fachfrau für Gebäudemanagement',
-            'von Flecken, Kalk und Staub Herausgeforderte'
+            'Von Flecken, Kalk und Staub Herausgeforderte'
         ],
         'dki': [
             'vollschlank',

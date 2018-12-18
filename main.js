@@ -8,6 +8,9 @@ var app = new Vue({
         goodwordIndex: 0,
         wDATA: DATA
     },
+    mounted: function(e) {
+        this.$refs.baddom.focus();
+    },
     methods: {
         onSubmit: function(e) {
             // no bad word entered
