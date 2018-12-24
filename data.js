@@ -31,7 +31,9 @@ var DATA = {
                 'Asylsuchender',
                 'Wirtschaftsflüchtling',
                 'Asyler',
-                'Asylschwindler'
+                'Asylschwindler',
+                'Sozialbetrüger',
+                'Sozialschmarotzer'
             ],
             'cat': 'ect'
         },
@@ -50,9 +52,28 @@ var DATA = {
                 'Ziegentreiber',
                 'Kamelficker',
                 'Kameltreiber',
-                'Sandneger'
+                'Sandneger',
+                'Muselmann',
+                'Muselman',
+                'Muselmane',
+                'Muselgrusel',
+                'Muselmanen',
+                'Windelkopfträger',
+                'Arschhochbeter',
+                'Muselaffen'
             ],
             'cat': 'alh'
+        },
+        {
+            'words': [
+                'Ausländer',
+                'Schwindelschädel',
+                'Trottelvolk',
+                'Migrantenpack',
+                'IV-Bezüger',
+                'Sozialschwindler'
+            ],
+            'cat': 'aus'
         },
         {
             'words': [
@@ -128,6 +149,22 @@ var DATA = {
         },
         {
             'words': [
+                'Arschgesicht',
+                'Schwanzgesicht',
+                'Hurengesicht',
+                'Schwanzfresse',
+                'Kackfresse',
+                'Pockengesicht',
+                'Pockenfresse',
+                'Narbengesicht',
+                'Narbenfresse',
+                'Fratze',
+                'Hackfresse'
+            ],
+            'cat': 'ges'
+        },
+        {
+            'words': [
                 'fett',
                 'dick',
                 'feiss',
@@ -180,7 +217,8 @@ var DATA = {
             'Ausgebürgerter',
             'Heimatloser',
             'Heimatvertriebener',
-            'Migrant'
+            'Migrant',
+            'Person, die mehr Wert ist als Gold'
         ],
         'hxu': [
             'Einzelfall',
@@ -200,6 +238,14 @@ var DATA = {
             'Nordafrikaner',
             'Vom Sand Gezeichneter',
             'Nomadisierender arabischer Wüstenbewohner'
+        ],
+        'aus': [
+            'Migrant',
+            'Migrierter Arbeiter',
+            'Person mit Migrationshintergrund',
+            'Gut integrierte, ausländische Fachkraft',
+            'Multikultur zelebrierende Persönlichkeit',
+            'Beispiel einer funktionierenden, multikulturellen Gesellschaft'
         ],
         'shx': [
             'Wohnungssuchender',
@@ -244,6 +290,12 @@ var DATA = {
             'Fachfrau für Gebäudereinigung',
             'Fachfrau für Gebäudemanagement',
             'Von Flecken, Kalk und Staub Herausgeforderte'
+        ],
+        'ges': [
+            'Unangenehmes Antlitz',
+            'Unvorteilhaftes Aussehen',
+            'Entstelltes Gesicht',
+            'Von Verstellungen herausgefordertes Gesicht'
         ],
         'dki': [
             'vollschlank',

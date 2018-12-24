@@ -9,6 +9,7 @@ Goals
 - [ ] vote on translations
 - [ ] editor for good/badwords
 - [ ] tell user if provided word is already socially acceptable
+- [ ] have multiple translations for one word
 - [ ] male / female pronouns
 
 Links
