@@ -6,6 +6,7 @@ var app = new Vue({
         goodword: null,
         goodwordList: [],
         goodwordIndex: 0,
+        submitValue: "Senden",
         wDATA: DATA
     },
     mounted: function(e) {
@@ -19,6 +20,9 @@ var app = new Vue({
                 return;
             }
             
+            // show user he can hit enter again
+            this.submitValue = "⭮ Senden";
+
             // user input changed
             if (this.changed) {
                 this.changed = false;
@@ -47,6 +51,7 @@ var app = new Vue({
     watch: {
         badword: function(newW, oldW) {
             this.changed = true;
+            this.submitValue = "Senden";
         }
     }
 });
